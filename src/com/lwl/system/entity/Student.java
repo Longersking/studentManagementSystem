@@ -12,5 +12,4 @@ public class Student {
     private Integer studentAge ;
     private Integer studentID;
     private String studentOrigin;
-
 }
