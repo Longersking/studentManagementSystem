@@ -1,4 +1,8 @@
 package com.lwl.system;
+
+import com.lwl.system.entity.Student;
+import com.lwl.system.view.MainView;
+
 //界面内容
 //学生类、界面类、系统类、测试类、文件io
 //属性：姓名，学号，籍贯
@@ -9,6 +13,8 @@ package com.lwl.system;
 //功能:
 public class Test {
     public static void main(String[] args) {
+     new MainView().enterStudentSystem();
+
 
     }
 }

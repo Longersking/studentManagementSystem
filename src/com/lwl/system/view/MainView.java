@@ -22,16 +22,16 @@ public class MainView {
         StudentServiceImpl studentService = new StudentServiceImpl();
         ArrayList<Student> list = new ArrayList<>();
         System.out.println("------------欢迎来到Java2.0------------");
-        System.out.println("1、录入学生信息");
-        System.out.println("2、删除学生信息");
-        System.out.println("3、修改学生信息");
-        System.out.println("4、查看学生信息");
-        System.out.println("请输入您的选择：");
         String choice = null;
         String flag = null;
         boolean clock = true;
         Scanner scanner = new Scanner(System.in);
         while (clock) {
+            System.out.println("1、录入学生信息");
+            System.out.println("2、删除学生信息");
+            System.out.println("3、修改学生信息");
+            System.out.println("4、查看学生信息");
+            System.out.println("请输入您的选择：");
             choice = scanner.next();
             switch (choice){
                 case "1":
